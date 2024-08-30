@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Nicolas
+ * @author Nahuel
  */
 public class Ejercicio_A02 {
 

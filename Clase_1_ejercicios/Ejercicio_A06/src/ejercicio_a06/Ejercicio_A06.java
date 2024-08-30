@@ -4,9 +4,11 @@
  */
 package ejercicio_a06;
 
+import java.util.Scanner;
+
 /**
  *
- * @author Nicolas
+ * @author Nahuel
  */
 public class Ejercicio_A06 {
 
@@ -14,7 +16,35 @@ public class Ejercicio_A06 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Ingrese un año: ");
+        int anioIngresado = input.nextInt();
+        boolean esBisiesto = false;
+        
+        String mensaje = "El año " + anioIngresado + " no es bisiesto";
+        
+        if(anioIngresado % 400 == 0)
+        {
+            esBisiesto = true;
+        }
+        else if(anioIngresado % 100 == 0)
+        {
+            esBisiesto = false;
+        }
+        else if(anioIngresado % 4 == 0)
+        {
+            esBisiesto = true;
+        }
+        
+        if(esBisiesto == true)
+        {
+            mensaje = "El año " + anioIngresado + " es bisiesto";
+        }
+        
+        System.out.println(mensaje);
+        input.close();
+            
     }
     
 }
