@@ -71,7 +71,6 @@ public class Ejercicios_B01 {
             else
             {
                 System.out.println(mensaje);
-                continue;
             }
         }
         int promedioNumeros = sumaNumeros / 10;
