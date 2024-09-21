@@ -1,0 +1,13 @@
+<diagram program="umletino" version="15.1"><zoom_level>19</zoom_level><element><id>UMLClass</id><coordinates><x>551</x><y>304</y><w>285</w><h>190</h></coordinates><panel_attributes>UTNbot
+--
+- nombreBot: String
+--
++ UTNbot(String)
++ saludar(): void
++ saludar(Persona): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>969</x><y>304</y><w>266</w><h>152</h></coordinates><panel_attributes>Persona
+--
+- nombre: String
+- telefono: int
+--
++ Persona(String, int)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>817</x><y>380</y><w>190</w><h>57</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element></diagram>

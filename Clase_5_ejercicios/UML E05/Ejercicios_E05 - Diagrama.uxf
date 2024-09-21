@@ -1,0 +1,9 @@
+<diagram program="umletino" version="15.1"><zoom_level>19</zoom_level><element><id>UMLClass</id><coordinates><x>513</x><y>304</y><w>342</w><h>247</h></coordinates><panel_attributes>Password
+--
+- valorContra: String
+--
++ Password(String)
++ Password()
++ esFuerte(): boolean
++ nuevoValor(String): boolean
++ generarAleatorio(int): String</panel_attributes><additional_attributes></additional_attributes></element></diagram>

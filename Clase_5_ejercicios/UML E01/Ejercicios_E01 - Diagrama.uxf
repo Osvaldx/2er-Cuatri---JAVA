@@ -1,0 +1,14 @@
+<diagram program="umletino" version="15.1"><zoom_level>19</zoom_level><help_text>Persona</help_text><element><id>UMLClass</id><coordinates><x>494</x><y>247</y><w>456</w><h>399</h></coordinates><panel_attributes>Persona
+--
+- apellido: String
+- nombre: String
+- anio_nacimiento: LocalDate
+--
+Persona(String, String, LocalDate)
++ getNombreCompleto(): String
++ getEdadActual(): int
++ validacionMayorEdad(): boolean
++ setNombre(String): void
++ setApellido(String): void
++ setNombreApellido(String, String): void
++ mostrarInformacion(): String</panel_attributes><additional_attributes></additional_attributes></element></diagram>

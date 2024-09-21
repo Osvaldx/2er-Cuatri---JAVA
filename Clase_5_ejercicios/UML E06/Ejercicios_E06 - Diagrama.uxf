@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>19</zoom_level><help_text>Persona</help_text><element><id>UMLClass</id><coordinates><x>247</x><y>266</y><w>475</w><h>418</h></coordinates><panel_attributes>Persona
+--
+- apellido: String
+- nombre: String
+- fecha_nacimiento: LocalDate
+- domicilio: Domicilio
+--
+Persona(String, String, LocalDate)
++ getNombreCompleto(): String
++ getEdadActual(): int
++ validacionMayorEdad(): boolean
++ setNombre(String): void
++ setApellido(String): void
++ setNombreApellido(String, String): void
++ mostrarInformacion(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>874</x><y>380</y><w>342</w><h>209</h></coordinates><panel_attributes>Domicilio
+--
+- calle: String
+- altura: int
+- barrio: String
+--
++ Domicilio(String, int, String)
++ getDatosDomicilio(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>703</x><y>475</y><w>209</w><h>57</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element></diagram>

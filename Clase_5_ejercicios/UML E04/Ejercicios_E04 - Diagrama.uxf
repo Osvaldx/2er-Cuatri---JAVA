@@ -1,0 +1,10 @@
+<diagram program="umletino" version="15.1"><zoom_level>19</zoom_level><element><id>UMLClass</id><coordinates><x>475</x><y>304</y><w>342</w><h>285</h></coordinates><panel_attributes>CuentaBancaria
+--
+- claveBancaria: int
+- tipoCaja: String
+- saldo: int
+--
++ obtenerSaldo(): int
++ depositarDinero(int): void
++ extraerDinero(int): void
++ getUltimosDigitosCBU(): int</panel_attributes><additional_attributes></additional_attributes></element></diagram>

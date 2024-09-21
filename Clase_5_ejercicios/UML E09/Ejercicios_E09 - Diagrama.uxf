@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.1"><zoom_level>20</zoom_level><element><id>UMLClass</id><coordinates><x>380</x><y>360</y><w>400</w><h>300</h></coordinates><panel_attributes>Impresora
+-
+- estado: boolean
+- cantidadHojas: int
+- nivelTinta: int
+--
++ Impresora()
++ nivelSegunCantCaracteres(): int
++ recargarBandeja(): void
++ imprimir(Documento): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>980</x><y>400</y><w>300</w><h>260</h></coordinates><panel_attributes>Documento
+--
+- titulo: String
+- fecha: LocalDate
+- cuerpo: String
+--
++ getTitulo(): String
++ getFecha(): LocalDate
++ getCuerpo(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>500</y><w>260</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element></diagram>
