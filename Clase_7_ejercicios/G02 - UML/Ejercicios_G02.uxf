@@ -1,0 +1,49 @@
+<diagram program="umletino" version="15.1"><zoom_level>16</zoom_level><element><id>UMLClass</id><coordinates><x>848</x><y>0</y><w>352</w><h>256</h></coordinates><panel_attributes>Archivo
+-
+- nombre: String
+- peso: int
+- localizacion: String
+- estadoArchivo: Boolean
+--
++ Archivo(String, int, String, Boolean)
++ abrirArchivo(): void
++ cerrarArchivo(): void
++ moverArchivo(String): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>784</x><y>240</y><w>160</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>544</x><y>352</y><w>512</w><h>192</h></coordinates><panel_attributes>ArchivoMultimedia
+--
+- duracion: int
+- estadoMultimedia: Boolean
+--
++ Multimedia(String, int, String, Boolean, int, Boolean)
++ reproducir(): String
++ dejarReproducir(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>544</x><y>528</y><w>176</w><h>224</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>368</x><y>720</y><w>336</w><h>160</h></coordinates><panel_attributes>ArchivoDeAudio
+--
+- formato: TipoAudio
+- artista: String
+- album: String
+--
++ ArchivoDeAudio(String, int, String,Boolean, int, Boolean, TipoAudio, String, String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>848</x><y>720</y><w>336</w><h>160</h></coordinates><panel_attributes>ArchivoDeVideo
+--
+- formato: TipoVideo
+- alto: int
+- ancho: int
+--
++ ArchivoDeVideo(String, int, String,Boolean, int, Boolean, TipoVideo, int, int)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>816</y><w>144</w><h>48</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>112</x><y>736</y><w>160</w><h>192</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+TipoAudio
+--
++ MP3
++ WAV
++ FLAC
++ AAC
++ OGG</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1168</x><y>816</y><w>176</w><h>48</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1312</x><y>736</y><w>160</w><h>192</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+TipoVideo
+--
++ MP4
++ AVI
++ MKV
++ MOV
++ WMV</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1120</x><y>352</y><w>496</w><h>144</h></coordinates><panel_attributes>ArchivoTexto
+--
+- codificacion: String
+--
++ ArchivoDeTexto(String, int, String, Boolean, String)
++ cifrarContenido(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1088</x><y>240</y><w>192</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;70</additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>528</y><w>144</w><h>224</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;70;120</additional_attributes></element></diagram>

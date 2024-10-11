@@ -4,8 +4,17 @@
  */
 package pruebascode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Queue;
+import java.util.Random;
+import java.util.Set;
+import java.util.Stack;
 
 /**
  *
@@ -13,21 +22,21 @@ import java.util.Collections;
  */
 public class PruebasCode {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         
-        int[] lista_numeros = {1000,1200,900,100};
+        Random objetoRandom = new Random();
+        ArrayList<Integer> listInt = new ArrayList<>();
         
-        int index = 0;
-        for(int numero : lista_numeros) {
-            if(numero > index) {
-                index = numero;
+        for(int i = 0; i < 20; i++){
+            int numeroRandom = objetoRandom.nextInt(-50, 31);
+            if(numeroRandom != 0){
+                listInt.add(numeroRandom);
             }
         }
         
-        System.out.println("Mayor: " + index);
+        for(int numero : listInt){
+            System.out.println(numero);
+        }
         
     }
     

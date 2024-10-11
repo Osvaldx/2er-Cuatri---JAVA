@@ -1,0 +1,33 @@
+<diagram program="umletino" version="15.1"><zoom_level>13</zoom_level><element><id>UMLClass</id><coordinates><x>559</x><y>507</y><w>338</w><h>234</h></coordinates><panel_attributes>Automovil
+--
+- cantidadMarchas: short
+- cantidadPasajeros: int
+--
++ Automovil(short, short, Colores, short, int)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>936</x><y>507</y><w>273</w><h>234</h></coordinates><panel_attributes>Moto
+--
+- cilindrada: short
+--
++ Moto(short, short, Colores, short)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>195</x><y>507</y><w>325</w><h>234</h></coordinates><panel_attributes>Camion
+--
+- cantidadMarchas: short
+- pesoCarga: int
+--
++ Camion(short, short, Colores, short, int)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>247</x><y>182</y><w>195</w><h>221</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+Colores
+--
++ ROJO("Rojo")
++ BLANCO("Blanco")
++ AZUL("Azul")
++ GRIS("Gris")
++ NEGRO("Negro")
+- valor: String
+--
+- Colores(String)
++ getValor(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>572</x><y>221</y><w>312</w><h>195</h></coordinates><panel_attributes>VehiculoTerrestre
+--
+- cantidadRuedas: short
+- cantidadPuertas: short
+- color: Colores
+--
++ VehiculoTerrestre(short, short, Colores)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>364</x><y>403</y><w>312</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>220;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>715</x><y>403</y><w>39</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>793</x><y>403</y><w>312</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;220;80</additional_attributes></element><element><id>Relation</id><coordinates><x>429</x><y>286</y><w>169</w><h>52</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;110;20</additional_attributes></element></diagram>

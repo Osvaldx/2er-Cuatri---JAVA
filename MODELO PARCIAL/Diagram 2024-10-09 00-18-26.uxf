@@ -1,0 +1,51 @@
+<diagram program="umletino" version="15.1"><zoom_level>14</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>294</x><y>98</y><w>350</w><h>350</h></coordinates><panel_attributes>Pasajero
+-
+- apellido: String
+- nombre: String
+- rango: Rangos
+--
++ Pasajero()
++ Pasajero(String)
++ Pasajero(String, String)
++ Pasajero(String, String, Rangos)
++ getApellido(): String
++ getNombre(): String
++ getRango(): Rangos
+__+ sonIguales(Pasajero, Pasajero): Boolean__
++ toString(): String
++ equals(Object): Boolean
++ hashCode(): int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>182</x><y>224</y><w>140</w><h>42</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>126</y><w>196</w><h>154</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+Rangos
+--
++ AZAFATA
++ COCINERO
++ MAQUINISTA
++ CLIENTE</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>826</x><y>112</y><w>350</w><h>308</h></coordinates><panel_attributes>/Tren/
+--
+# cantidadMaximaPasajeros: int
+# destino: String
+# motorEncendido: Boolean
+--
++ Tren(int, String)
++ getCantidadMaximaPasajeros(): int
++ getMotorEncendido(): Boolean
++ setMotorEncendido(Boolean): void
++ getDestino(): String
+/+ getPasajeros(): ArrayList&lt;Pasajero&gt;/
+__+ sonIguales(Pasajero, Tren): Boolean__
++ agregar(Pasajero): void
++ toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>644</x><y>518</y><w>322</w><h>140</h></coordinates><panel_attributes>TrenElectrico
+--
+# pasajeros: ArrayList&lt;Pasajero&gt;
+--
++ TrenElectrico(int, String)
++ getPasajeros(): ArrayList&lt;Pasajero&gt;
++ getDestino(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>854</x><y>406</y><w>126</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>70;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1008</x><y>518</y><w>350</w><h>168</h></coordinates><panel_attributes>TrenBala
+--
+# cantidadElectroimanes: int
+# pasajeros: ArrayList&lt;Pasajero&gt;
+--
++ TrenBala(int, String, int)
++ getPasajeros(): ArrayList&lt;Pasajero&gt;
++ getDestino(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1036</x><y>406</y><w>140</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;80</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>280</y><w>224</w><h>42</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element></diagram>

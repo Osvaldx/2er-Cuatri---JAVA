@@ -1,0 +1,12 @@
+<diagram program="umletino" version="15.1"><zoom_level>18</zoom_level><element><id>UMLClass</id><coordinates><x>936</x><y>414</y><w>306</w><h>180</h></coordinates><panel_attributes>Conductor
+--
+- nombre: String
+- kilometrosRecorridos: int[]
+--
++ Conductor(String, int[])
++ getDiaKilometros(int): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>414</x><y>414</y><w>360</w><h>162</h></coordinates><panel_attributes>Conductores
+--
+- listaConductores: Conductor[]
+--
++ Conductores(Conductor[])
++ getMaximoKilometros(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>756</x><y>486</y><w>216</w><h>54</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>100;10;10;10</additional_attributes></element></diagram>
