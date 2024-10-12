@@ -1,0 +1,27 @@
+<diagram program="umletino" version="15.1"><zoom_level>14</zoom_level><element><id>UMLClass</id><coordinates><x>476</x><y>93</y><w>336</w><h>350</h></coordinates><panel_attributes>Cliente
+--
+- nombre: String
+- apellido: String
+- telefono: int
+- domicilio: String
+- mascotas: ArrayList&lt;Animal&gt;
+--
++ Cliente(String, String, int)
++ Cliente(String, String, int, String)
+- getNombre(): String
+- getApellido(): String
+- getDomicilio(): String
+- getListaMascotas(): ArrayList&lt;Animal&gt;
++ addMascota(Animal): void
++ removeMascota(Animal): void
++ mostrarInfoCliente(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>527</y><w>294</w><h>224</h></coordinates><panel_attributes>/Animal/
+--
+- tipoEspecie: String
+- nombre: String
+- fechaNacimiento: LocalDate
+- HVacunas: ArrayList&lt;String&gt;
+--
++ Animal(String, String, LocalDate)
++ addVacuna(String): void
++ removeVacuna(String): void
++ mostrarInfoAnimal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>429</y><w>42</w><h>126</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element></diagram>
