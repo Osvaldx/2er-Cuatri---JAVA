@@ -1,0 +1,24 @@
+<diagram program="umletino" version="15.1"><zoom_level>16</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>464</y><w>400</w><h>352</h></coordinates><panel_attributes>Jugador
+-
+- dni: int
+- nombre: String
+- partidosJugados: int
+- promedioGoles: float
+- totalGoles: int
+--
+- Jugador()
++ Jugador(int, String)
++ Jugador(int, String, int, float)
++ getPromedioGoles(): float
++ mostrarDatos(): String
+_+ soniguales(Jugador, Jugador): boolean_
+_+ sonDistintos(Jugador, Jugador): boolean_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>224</x><y>144</y><w>304</w><h>208</h></coordinates><panel_attributes>Equipo
+--
+- cantidadDeJugadores: int
+- nombre: String
+- jugadores: ArrayList&lt;Jugador&gt;
+--
+- Equipo()
++ Equipo(int, String)
++ add(Equipo, Jugador): Equipo
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>352</x><y>336</y><w>48</w><h>160</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element></diagram>

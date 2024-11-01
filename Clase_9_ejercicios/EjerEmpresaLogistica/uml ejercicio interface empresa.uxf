@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>13</zoom_level><element><id>UMLClass</id><coordinates><x>559</x><y>104</y><w>208</w><h>91</h></coordinates><panel_attributes>/Vehiculo/
+--
+--
++ Vehiculo()
++ cargarPaquete(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>559</x><y>286</y><w>208</w><h>91</h></coordinates><panel_attributes>CamionDeReparto
+--
+--
++ CamionDeReparto()
++ conducirRapido(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>182</y><w>39</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>858</x><y>104</y><w>208</w><h>91</h></coordinates><panel_attributes>/DispositivoElectronico/
+--
+--
++ DispositivoElectronico()
++ encender(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>858</x><y>286</y><w>195</w><h>91</h></coordinates><panel_attributes>DronDeEntrega
+--
+--
++ DronDeEntrega()
++ encender(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>949</x><y>182</y><w>39</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>286</x><y>286</y><w>195</w><h>91</h></coordinates><panel_attributes>PersonaMensajera
+--
+--
++ PersonaMensajera()
++ EntregaAPie(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>494</x><y>507</y><w>325</w><h>91</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+TransportadorDePaquete
+--
++ transportarPaquete(String destino): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>429</x><y>689</y><w>455</w><h>130</h></coordinates><panel_attributes>EmpresaDeLogistica
+--
++ listaTransportadores: ArrayList&lt;TransportadorDePaquete&gt;
+--
++ EmpresaDeLogistica()
++ iniciarEntrega(): void
++ agregarTransportador(TransportadorDePaquete t): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>585</y><w>39</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>403</x><y>364</y><w>182</w><h>169</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>120;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>364</y><w>39</w><h>169</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>741</x><y>364</y><w>195</w><h>169</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;110;130;10</additional_attributes></element></diagram>
