@@ -1,0 +1,24 @@
+<diagram program="umletino" version="15.1"><zoom_level>15</zoom_level><element><id>UMLClass</id><coordinates><x>465</x><y>75</y><w>360</w><h>240</h></coordinates><panel_attributes>Torneo&lt;T extends Equipo&gt;
+--
+- equipos: ArrayList&lt;T&gt;
+- nombre: String
+--
++ Torneo(String)
+*+ equals(Objet): boolean*
++ agregar(T): void
++ mostrar(): String
+- calcularPartido(T, T): String
++ jugarPartido(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>495</x><y>405</y><w>300</w><h>180</h></coordinates><panel_attributes>/Equipo/
+--
+- nombre: String
+- fechaCreacion: LocalDateTime
+--
++ Equipo(String, LocalDateTime)
+*+ equals(Objet): boolean*
++ getFicha(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>285</x><y>690</y><w>330</w><h>180</h></coordinates><panel_attributes>EquipoFutbol
+--
+--
++ EquipoFutbol(String,LocalDateTime)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>675</x><y>690</y><w>345</w><h>180</h></coordinates><panel_attributes>EquipoBasquet
+--
+--
++ EquipoBasquet(String,LocalDateTime)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>570</y><w>165</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>675</x><y>570</y><w>195</w><h>165</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;110;90</additional_attributes></element></diagram>

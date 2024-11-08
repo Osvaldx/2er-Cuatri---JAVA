@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>15</zoom_level><element><id>UMLClass</id><coordinates><x>375</x><y>528</y><w>510</w><h>300</h></coordinates><panel_attributes>Producto
+--
+- nombre: String
+- cantidad: int
+- precio: double
+--
++ Producto(String, int, double)
++ getNombre(): String
++ getCantidad(): int
++ getPrecio(): double
++ setNombre(String): void
++ setCantidad(int): void throws CantidadInvalidaException
++ setPrecio(double): void throws PrecioInvalidoException
++ reabastecer(int): void throws CantidadInvalidaException</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>93</y><w>180</w><h>75</h></coordinates><panel_attributes>Exception
+--
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>255</x><y>348</y><w>315</w><h>90</h></coordinates><panel_attributes>CantidadInvalidaException
+--
+--
++ CantidadInvalidaException(String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>705</x><y>348</y><w>300</w><h>90</h></coordinates><panel_attributes>PrecioInvalidoException
+--
+--
++ PrecioInvalidoException(String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>405</x><y>153</y><w>225</w><h>225</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>645</x><y>153</y><w>225</w><h>225</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;130</additional_attributes></element></diagram>
