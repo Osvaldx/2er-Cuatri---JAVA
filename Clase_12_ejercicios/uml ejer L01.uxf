@@ -1,0 +1,6 @@
+<diagram program="umletino" version="15.1"><zoom_level>20</zoom_level><element><id>UMLClass</id><coordinates><x>520</x><y>260</y><w>360</w><h>160</h></coordinates><panel_attributes>Parseadora
+--
+--
++ Parseadora()
+_- verificarSiExisteDirectorio_
+_- verificarSiExisteArchivo_</panel_attributes><additional_attributes></additional_attributes></element></diagram>
