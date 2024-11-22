@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Copyright (c) 2017, Gluon and/or its affiliates.
+    All rights reserved. Use is subject to license terms.
+
+    This file is available and licensed under the following license:
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+
+   - Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   - Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
+     the documentation and/or other materials provided with the distribution.
+   - Neither the name of Oracle Corporation and Gluon nor the names of its
+     contributors may be used to endorse or promote products derived
+     from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="270.0" style="-fx-background-color: #f0c5ea;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.botonXApp">
+   <children>
+      <Pane prefHeight="111.0" prefWidth="270.0" style="-fx-background-color: #e6aade;">
+         <children>
+            <TextField layoutX="58.0" layoutY="54.0" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="17.0" fitWidth="32.0" layoutX="245.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 0;">
+         <image>
+            <Image url="@../images/cerrar.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botoncerrar" layoutX="241.0" layoutY="5.0" minWidth="26.0" mnemonicParsing="false" onAction="#cerrarApp" opacity="0.0" prefHeight="26.0" prefWidth="26.0" style="-fx-min-height: 21; -fx-min-width: 26;" />
+      <Circle fill="#e6aade" layoutX="45.0" layoutY="141.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="110.0" layoutY="141.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="170.0" layoutY="141.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="230.0" layoutY="141.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="230.0" layoutY="195.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="230.0" layoutY="251.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="230.0" layoutY="310.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="230.0" layoutY="370.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="170.0" layoutY="195.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="110.0" layoutY="195.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="45.0" layoutY="195.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="170.0" layoutY="251.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="45.0" layoutY="251.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="110.0" layoutY="251.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="110.0" layoutY="310.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="45.0" layoutY="310.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="170.0" layoutY="310.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="45.0" layoutY="370.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#e6aade" layoutX="110.0" layoutY="370.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Label layoutX="39.0" layoutY="357.0" prefHeight="26.0" prefWidth="19.0" text="0">
+         <font>
+            <Font name="Verdana" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="354.0" prefHeight="26.0" prefWidth="19.0" text=",">
+         <font>
+            <Font name="Verdana" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="296.0" prefHeight="26.0" prefWidth="19.0" text="1">
+         <font>
+            <Font name="Roboto" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
